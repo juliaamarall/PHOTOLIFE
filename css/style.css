@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* link da font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=REM:wght@300&display=swap');
+
+
+/* estilos complementares */
+
+.estilo-font{
+    font-family: 'Playfair Display', serif;
+}
+
+#caixa-01{
+    width: 5em;
+}
+
+.secondary-bg{
+    background-color: #ccc;
+}
+
+hr{
+    margin:2em;
+    width: 80%;
+    margin: auto;
+   
+}
+
+
+/* seção de entrada caroussel*/
+
+.carousel-item > img{
+    height: 40em;
+    object-fit: cover;
+
+}
+
+#bloco01{
+    margin: 0;
+}
+
+#bloco03 img{
+    padding: 1em;
+}
+
+
+/* estilo footer */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    
+}
+
+footer .row > div{
+margin: 3em 0 3em ;
+align-items: center;
+text-align: center;
+}
+
+footer .row > div > i{
+    font-size: 1.5em;
+    margin: .5em;
+}
+
+@media(max-width:376px){
+ #bloco03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+  
+}
